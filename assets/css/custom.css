@@ -1,0 +1,59 @@
+body {
+    background: url("../../images/paper.gif") repeat;
+}
+body h1.title {
+    height: 100px;
+    background-color: #fff3d9;
+    margin-top: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+    color: #1b6d85;
+
+}
+.btn {
+    border-radius: 0;
+}
+.groupe {
+    background-color: lightgrey;
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+table {
+    background-color: white;
+    margin-top: 10px;
+}
+input[type="text"], input[type="email"], select[class="form-control"] {
+    border-radius: 0;
+}
+td.error{
+    background-color: red;
+    color: black;
+    text-align: center;
+}
+td.group{
+    color: red;
+    font-weight: bold;
+}
+td.utilisateur{
+    color: blue;
+    font-weight: bold;
+}
+.btn-details{
+    background-color: orange;
+    width: 100px;
+}
+.supprimer{
+    width: 100px;
+    margin-left: 10px;
+}
+.navbar{
+    margin-top: 10px;
+}
+.navbar .navbar-form{
+    padding: 0 15px;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
